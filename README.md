@@ -16,7 +16,7 @@ nvim-typecraft is a Neovim configuration designed to enhance your coding experie
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/nvim-typecraft.git ~/.config/nvim
+    git clone https://github.com/okazkayasi/nvim-lua.git ~/.config/nvim
     ```
 
 2. **Install the plugins**:
