@@ -1,6 +1,6 @@
 # nvim-lua
 
-nvim-typecraft is a Neovim configuration designed to enhance your coding experience with a focus on efficiency and ease of use. This configuration includes a curated set of plugins, key mappings, and settings that aim to provide a seamless development environment.
+nvim-lua is a Neovim configuration designed to enhance your coding experience with a focus on efficiency and ease of use. This configuration includes a curated set of plugins, key mappings, and settings that aim to provide a seamless development environment.
 
 ## Features
 
@@ -27,4 +27,4 @@ nvim-typecraft is a Neovim configuration designed to enhance your coding experie
 
 ## Usage
 
-Once the installation is complete, you can start using nvim-typecraft by opening Neovim:
+Once the installation is complete, you can start using nvim-lua by opening Neovim:
