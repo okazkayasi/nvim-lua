@@ -80,7 +80,7 @@ Before installing this configuration, ensure you have the following tools instal
    - Common language servers include:
      - lua_ls (Lua)
      - pyright (Python)
-     - tsserver (TypeScript/JavaScript)
+     - ts-ls (TypeScript/JavaScript)
      - rust_analyzer (Rust)
      - gopls (Go)
    - Press `q` to exit Mason when done
