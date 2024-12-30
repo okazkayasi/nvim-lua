@@ -24,7 +24,7 @@ return {
 
       require("telescope").setup({
         defaults = {
-          file_ignore_patterns = { "^.git/" },
+          file_ignore_patterns = { "^.git/", "^node_modules/", "^.next/" },
         },
         pickers = {
           find_files = {
