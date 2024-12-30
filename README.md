@@ -18,7 +18,7 @@ This repository contains my personal Neovim configuration files, designed to cre
 - Neovim >= 0.8.0
 - Git
 - A Nerd Font (for icons)
-- Node.js (for LSP servers)
+- Node.js (for ts-ls)
 - ripgrep (for Telescope file searching)
 ## Installation Prerequisites
 
