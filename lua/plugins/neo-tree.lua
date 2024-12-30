@@ -6,21 +6,23 @@ return {
     "nvim-tree/nvim-web-devicons",
     "MunifTanjim/nui.nvim",
   },
-  cmd = 'Neotree',
+  cmd = "Neotree",
   keys = {
-    { '\\', ':Neotree reveal<CR>', { desc = 'NeoTree reveal' } },
+    { "\\", ":Neotree reveal<CR>", { desc = "NeoTree reveal" } },
   },
   opts = {
     filesystem = {
       window = {
         width = 25,
         mappings = {
-          ['\\'] = 'close_window',
+          ["\\"] = "close_window",
         },
+      },
+      filtered_items = {
+        visible = false,
+        hide_dotfiles = false,
+        hide_gitignored = false,
       },
     },
   },
-    --  config = function()
---    vim.keymap.set("n", "<C-n>", ":Neotree filesystem reveal left<CR>", {})
---  end
 }
