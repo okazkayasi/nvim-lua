@@ -34,6 +34,7 @@ return {
         }),
         sources = cmp.config.sources({
           { name = "nvim_lsp" },
+          { name = "copilot", group_index = 2 },
           { name = "luasnip" }, -- For luasnip users.
         }, {
           { name = "buffer" },
