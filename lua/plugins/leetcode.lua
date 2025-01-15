@@ -7,7 +7,9 @@ return {
     "nvim-lua/plenary.nvim",
     "MunifTanjim/nui.nvim",
   },
-  opts = {
-    -- configuration goes here
-  },
+  config = function()
+    require("leetcode").setup({
+      lang = "typescript",
+    })
+  end,
 }
