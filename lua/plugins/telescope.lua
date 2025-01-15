@@ -24,13 +24,19 @@ return {
 
       require("telescope").setup({
         defaults = {
-          file_ignore_patterns = { "^.git/", "^node_modules/", "^.next/" },
+          file_ignore_patterns = { "^.git/", "^node_modules/", "^.next/", "^coverage/", "yarn.lock" },
         },
         pickers = {
           find_files = {
             hidden = true,
             no_ignore = true,
           },
+        },
+        live_grep = {
+          file_ignore_patterns = { "node_modules", ".git", ".venv", "yarn.lock" },
+          additional_args = function(_)
+            return { "--hidden" }
+          end,
         },
       })
     end,
